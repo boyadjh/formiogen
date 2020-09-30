@@ -1,0 +1,39 @@
+{
+    "types": [
+        {
+            "options": [
+            "Good Condition",
+            "Damaged",
+            "N/A"
+            ],
+            "repairable": [
+                "Damaged",
+                "N/A"
+            ]
+        },
+        { 
+            "options": [
+            "Yes",
+            "No"
+            ],
+            "repairable": [
+                "No"
+            ]
+        }
+    ],
+    "questions": [
+        {
+            "items": [
+                "Seats",
+                "Floor Mats"
+            ],
+            "type": 0
+        }, {
+            "items": [
+                "Proper Oil Level",
+                "Proper Oil Pressure"
+            ],
+            "type": 1
+        }
+    ]
+}
